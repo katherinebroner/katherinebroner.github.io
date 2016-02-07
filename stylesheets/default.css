@@ -1,0 +1,55 @@
+body {
+  font-family: Didot;
+  font-size: 150%;
+}
+
+header {
+  text-align: center;
+}
+
+.media-links {
+  text-align: right;
+}
+
+.main-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.blog-main-nav {
+  display: inline-block;
+  margin: .5em;
+  margin-left: 15em;
+  border-style: double;
+  width: 150px;
+  text-align: center;
+}
+
+.projects-main-nav {
+  display: inline-block;
+  margin: .5em;
+  border-style: double;
+  width: 150px;
+  text-align: center;
+}
+
+.about-main-nav {
+  display: inline-block;
+  margin: .5em;
+  border-style: double;
+  width: 150px;
+  text-align: center;
+}
+
+.resume-main-nav {
+  display: inline-block;
+  margin: .5em;
+  border-style: double;
+  width: 150px;
+  text-align: center;
+}
