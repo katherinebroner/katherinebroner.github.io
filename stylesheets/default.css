@@ -1,19 +1,50 @@
 body {
   font-family: Didot;
   font-size: 150%;
+  background-color: #D68BD0;
+  color: black;
 }
 
 header {
   text-align: center;
+  width: 600px;
+  margin: 10px auto 10px auto;
 }
 
 .media-links {
-  text-align: right;
+  position: absolute;
+  top: 10px;
+  left: 1200px;
+  height: large;
 }
 
 .main-nav {
-  margin-left: auto;
-  margin-right: auto;
+  width: 500px;
+  border-style: double;
+  text-align: center;
+  margin: 10px auto 10px auto;
+  background-color: #705C6F;
+}
+
+.recent-work {
+  border-style: double;
+  width: 450px;
+  height: 175px;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  padding-top: 100px;
+  background-color: #B3A6B1;
+}
+
+footer a:link {
+  text-decoration: underline;
+}
+
+footer {
+  bottom-margin: 5px;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  width: 500px;
 }
 
 a:link {
@@ -21,7 +52,7 @@ a:link {
   color: black;
 }
 
-.blog-main-nav {
+/*.blog-main-nav {
   display: inline-block;
   margin: .5em;
   margin-left: 15em;
