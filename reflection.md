@@ -1,5 +1,10 @@
 Reflection
 
+Link to site:
+
+file:///Users/katherinebroner/Desktop/DBC/katherinebroner.github.io/index.html
+
+
 What did you learn about CSS padding, borders, and margin by doing this challenge?
 
 I learned that CSS padding is important because it allows the user to better see the content. Chose to add padding to all my content sections.  With borders, I learned that there are many different styles of borders to choose from. I learned that with margin you can use the auto option to center the content in the center of the page.
@@ -14,4 +19,4 @@ The aspects of my design I found easiest to implement was font style, font color
 
 What did you learn about adding and formatting elements with CSS in this challenge?
 
-I learned that in CSS it is important to pay close attention to detail. The pixels must be accurate in order to hold all of the content. I also learned that even a basic looking website takes a decent amount of formatting, and it is important to fully understand all of the element options that are available. CSS has shown me that any type of design is possible, but it takes discipline and patience. I hope to continue practicing my positioning and formatting skills, as it seems to be the most important part of a fluid website.
+I learned that in CSS it is important to pay close attention to detail. The pixels must be accurate in order to hold all of the content. I also learned that even a basic looking website takes a decent amount of formatting, and it is important to fully understand all of the element options that are available. CSS has shown me that any type of design is possible, but it takes discipline and patience. I hope to continue practicing my positioning and formatting skills, as it seems to be the most important part of a fluid website.  In addition to the CSS, I was having trouble properly linking the updates to my personal website, as the formatting looked like it did not carry over.  Github should reflect the styling updates but there may be issues viewing the site in the web browser.
