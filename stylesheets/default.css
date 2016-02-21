@@ -1,35 +1,49 @@
 body {
   font-family: Didot;
   font-size: 150%;
-  background-color: #D68BD0;
   color: black;
+  background-color: #D68BD0
 }
 
 header {
+  vertical-align: center;
   text-align: center;
-  width: 600px;
+  width: 1000px;
+  height: 150px;
   margin: 10px auto 10px auto;
+  font-size: 160%;
 }
 
 .media-links {
   position: absolute;
   top: 10px;
-  left: 1200px;
-  height: large;
+  left: 1225px;
+  font-size: 75%;
+  width: 200px;
+}
+
+.media-links a {
+  display: inline-block;
+  padding: 8px;
 }
 
 .main-nav {
-  width: 500px;
+  width: 1000px;
   border-style: double;
   text-align: center;
   margin: 10px auto 10px auto;
   background-color: #705C6F;
 }
 
-.recent-work {
+.main-nav a {
+  display: inline-block;
+  padding: 15px;
+}
+
+.welcome {
   border-style: double;
-  width: 450px;
-  height: 175px;
+  width: 1000px;
+  height: 250px;
   margin: 10px auto 10px auto;
   text-align: center;
   padding-top: 100px;
@@ -41,46 +55,17 @@ footer a:link {
 }
 
 footer {
-  bottom-margin: 5px;
+  position: absolute;
+  bottom:10px;
+  left: 550px;
   margin: 10px auto 10px auto;
   text-align: center;
-  width: 500px;
+  width: 300px;
+  padding: 0px;
+  font-size: 80%;
 }
 
 a:link {
   text-decoration: none;
   color: black;
-}
-
-/*.blog-main-nav {
-  display: inline-block;
-  margin: .5em;
-  margin-left: 15em;
-  border-style: double;
-  width: 150px;
-  text-align: center;
-}
-
-.projects-main-nav {
-  display: inline-block;
-  margin: .5em;
-  border-style: double;
-  width: 150px;
-  text-align: center;
-}
-
-.about-main-nav {
-  display: inline-block;
-  margin: .5em;
-  border-style: double;
-  width: 150px;
-  text-align: center;
-}
-
-.resume-main-nav {
-  display: inline-block;
-  margin: .5em;
-  border-style: double;
-  width: 150px;
-  text-align: center;
 }

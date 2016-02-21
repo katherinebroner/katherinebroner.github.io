@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Version Control, git, and GitHub</title>
+  <title>Version Control</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
 </head>
 <body>
-  <main>
-    <h1>Version Control, git, and GitHub</h1>
-    <h2>January 24, 2016</h2>
-    <section>
-      <p><b>What are the benefits of version control?</b></p>
-
-      <p>Version control is an excellent way for devlopers to keep track of their work.  git, the version control system used on a computer, keeps track of all changes that have been made.  These changes, known as commits, specify when, why and the reason for a change.  Programmers are encouraged to commit early and often, so they can easily acess their code from a particular point in time.</p>
-
-      <p>Another benefit of version control is the ability to recognize errors (known as bugs) that are preventing the code from executing properly.  Programmers can look through their history to see where exactly the error occurred and fix the issue.  In this process, the programmer does not lose the clean, working code because it has been saved in prior commits.</p>
-
-      <p>Lastly, version control is especially useful when working on teams.  Each team member is able to see when specific changes were made and why.  This process helps to reduce redundancy and keep the devopment process moving smoothly.  Version control keeps code efficient and ultimately leads to a successful program.</p>
-    </section>
-    <section>
-      <p><b>How does git help you keep track of changes?</b></p>
-
-      <p>Git is the version control system that keeps track of changes on a programmers local machine (computer).  As a new programmer, it is crucial to understand and effictively use git in order to view code at specific points in time.</p>
-
-      <p>The three stages of keeping track of changes in git are modified, staged, and committed.  The first stage, modified, is when there have been changes made to the working directory.  For example, if you have updated a text file with new information, this would be considered modified.  In order to move the modified file to the second stage, staged, the programmer will type in the command: git add <file_name>.  In this second stage, the progammer reviews the code to make sure everything is executing properly before a final save.  To move to the third stage, committed, the programmer will enter the command: git commit -m "type in commit message here".  A file that is committed is the official "saving" of the changes at a particular point in time.</p>
-
-      <p>A programmer is able to view what stage the changes are in via the commands git status and git log.  Git status will show what the current state of the change is.  Some of the comments in git status include added, untracked and staged.  Once a change has been committed, the command git log allows the user to see all of the commits that have been made currently and in the past.  Each commit message in the log shows who completed the commit, the date/time of the commit, and a message of why the commit was made.  Programmers review the git status and git log regularly in order to keep track of their work.</p>
-    </section>
-    <section>
-      <p><b>Why use GitHub to store your code?</b></p>
-
-      <p>GitHub is a remote repository that allows programmers to store their code on the cloud.  Because the code is stored remotely, it can be viewed and accessed from any computer.  One of the benefits of storing code in GitHub is that a programmer will still be able to access their code in case of a computer crash.</p>
-
-      <p>When working in teams, GitHub is beneficial because it is an excellent way to collaborate with others.  Each team member is able to access the master code and make changes via a feature branch.  With a feature branch, each programmer can work on their specific piece of code and then have it merged back to the master file.  This process keeps guidelines clear and allows for a review process by all team members.  In addition to sharing code with a team, code on GitHub can be shared within the wider programming community, which encourages the spirit of exploration.</p>
-
-        <!-- copy and paste as many sections as you want to add paragraphs -->
+<header><h1><b>Blog</b></h1></header>
+    <nav class="media-links">
+      <a href="http://www.facebook.com/katherine.broner">Facebook</a>
+      <a href="https://twitter.com/katherinebroner">Twitter</a>
+      <a href="https://www.linkedin.com/in/katherine-broner-8b286b4a">LinkedIn</a>
+      <a href="https://github.com/katherinebroner">GitHub</a>
+    </nav>
+    <nav class="main-nav">
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">Blog</a>
+      <a href="#">Projects</a>
+      <a href="#">About Me</a>
+      <a href="#">Resume</a>
+    </nav>
+    <main class="content">
+      <h2>Version Control</h2>
+      <h3>January 24, 2016</h3>
+      <section>
+        <p><b>What are the benefits of version control?</b></p>
+        <p>Version control is an excellent way for devlopers to keep track of their work.  git, the version control system used on a computer, keeps track of all changes that have been made.  These changes, known as commits, specify when, why and the reason for a change.  Programmers are encouraged to commit early and often, so they can easily acess their code from a particular point in time.</p>
+        <p>Another benefit of version control is the ability to recognize errors (known as bugs) that are preventing the code from executing properly.  Programmers can look through their history to see where exactly the error occurred and fix the issue.  In this process, the programmer does not lose the clean, working code because it has been saved in prior commits.</p>
+        <p>Lastly, version control is especially useful when working on teams.  Each team member is able to see when specific changes were made and why.  This process helps to reduce redundancy and keep the devopment process moving smoothly.  Version control keeps code efficient and ultimately leads to a successful program.</p>
       </section>
+      <section>
+        <p><b>How does git help you keep track of changes?</b></p>
+        <p>Git is the version control system that keeps track of changes on a programmers local machine (computer).  As a new programmer, it is crucial to understand and effictively use git in order to view code at specific points in time.</p>
+        <p>The three stages of keeping track of changes in git are modified, staged, and committed.  The first stage, modified, is when there have been changes made to the working directory.  For example, if you have updated a text file with new information, this would be considered modified.  In order to move the modified file to the second stage, staged, the programmer will type in the command: git add <file_name>.  In this second stage, the progammer reviews the code to make sure everything is executing properly before a final save.  To move to the third stage, committed, the programmer will enter the command: git commit -m "type in commit message here".  A file that is committed is the official "saving" of the changes at a particular point in time.</p>
+        <p>A programmer is able to view what stage the changes are in via the commands git status and git log.  Git status will show what the current state of the change is.  Some of the comments in git status include added, untracked and staged.  Once a change has been committed, the command git log allows the user to see all of the commits that have been made currently and in the past.  Each commit message in the log shows who completed the commit, the date/time of the commit, and a message of why the commit was made.  Programmers review the git status and git log regularly in order to keep track of their work.</p>
+        </section>
+        <section>
+          <p><b>Why use GitHub to store your code?</b></p>
+          <p>GitHub is a remote repository that allows programmers to store their code on the cloud.  Because the code is stored remotely, it can be viewed and accessed from any computer.  One of the benefits of storing code in GitHub is that a programmer will still be able to access their code in case of a computer crash.</p>
+          <p>When working in teams, GitHub is beneficial because it is an excellent way to collaborate with others.  Each team member is able to access the master code and make changes via a feature branch.  With a feature branch, each programmer can work on their specific piece of code and then have it merged back to the master file.  This process keeps guidelines clear and allows for a review process by all team members.  In addition to sharing code with a team, code on GitHub can be shared within the wider programming community, which encourages the spirit of exploration.</p>
+        </section>
     </main>
   </body>
   </html>
