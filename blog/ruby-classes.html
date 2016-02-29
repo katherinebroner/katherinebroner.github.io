@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <title>Ruby Classes</title>
+  </head>
+  <body>
+    <header><h1><b>Blog</b></h1></header>
+    <nav class="media-links">
+      <a href="http://www.facebook.com/katherine.broner">Facebook</a>
+      <a href="https://twitter.com/katherinebroner">Twitter</a>
+      <a href="https://www.linkedin.com/in/katherine-broner-8b286b4a">LinkedIn</a>
+      <a href="https://github.com/katherinebroner">GitHub</a>
+    </nav>
+    <nav class="main-nav">
+      <a href="../index.html">Home</a>
+      <a href="../blog-index.html">Blog</a>
+      <a href="#">Projects</a>
+      <a href="../about.html">About Me</a>
+      <a href="#">Resume</a>
+    </nav>
+    <main>
+      <section class="content">
+        <h2>Ruby Classes</h2>
+        <h3>February 28, 2016</h3>
+        <section>
+          <p><b>What is a Ruby class?</b></p>
+          <p>A class is an excellent way to store a specific block of code that can be run as many times as the user wants. The class acts as a blueprint, and sets up the variables and methods that will be used. Instance variables are available to a particular instance of a class and are usually tied to particular instance methods. Classes are widely used throughout the programming world in order to keep code concise and repeatable. All that needs to change are the inputs given outside of the class, and the method will run!</p>
+        </section>
+        <section>
+          <p><b>How about an example?</b></p>
+          <p>Classes are most easily understood through a real-world example. Lets say you want to create a block of code for flowers, which will specify type, color, region, height, and flowering season. A class would be an excellent way to store this information, because you can have different methods for each specific area. Since you have created a class, the inputs of the flower are entered in outside the class and will adjust accordingly. If you have mutliple flowers, you can run the same code on all of them! In the example below, I have created a class called Flower, and initialized it with @name and @color. @name and @color are instance variables, which means they can be referenced with particular instances of the class. This is seen in the description method, which pulls in the name and the color to print out a string. The method call after the class is closed will specifically reference the desired variables, which will then be run through the class.</p>
+          <img src="../code_examples/class_subl.png" alt="Sublime code for class method"/>
+          <p>When Ruby runs this code through the interpreter, we will see the description:</p>
+          <img src="../code_examples/class_rb.png" alt="Terminal results for class method"/>
+          <p>Ruby classes are an everday part of a programmers world, and should be taken advantage of!</p>
+        </section>
+      </section>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
