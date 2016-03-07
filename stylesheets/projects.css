@@ -1,0 +1,38 @@
+body {
+  font-family: Didot;
+  font-size: 150%;
+  background-color: #D68BD0;
+  color: black;
+}
+
+header {
+  text-align: center;
+  width: 600px;
+  margin: 10px auto 10px auto;
+}
+
+.media-links {
+  position: absolute;
+  top: 10px;
+  left: 1200px;
+  font-size: 75%;
+  width: 200px;
+}
+
+.main-nav {
+  width: 1000px;
+  border-style: double;
+  text-align: center;
+  margin: 10px auto 10px auto;
+  background-color: #705C6F;
+}
+
+.projects {
+  border-style: double;
+  width: 1000px;
+  height: 340px;
+  margin: 10px auto 10px auto;
+  padding-top: 10px;
+  background-color: #B3A6B1;
+}
+
